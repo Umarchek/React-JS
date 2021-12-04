@@ -1,10 +1,10 @@
 import React from 'react'
-import { styled } from 'styled-components'
+import styled  from 'styled-components'
 import bg from '../img/bg.svg';
 function Header() {
     return (
         <HeaderStyled>
-
+            <h1>Hello</h1>
         </HeaderStyled>
     )
 }
