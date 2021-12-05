@@ -4,7 +4,7 @@ import bg from '../img/bg.svg';
 function Header() {
     return (
         <HeaderStyled>
-            <h1>Hello</h1>
+            <h1>Hello world!</h1>
         </HeaderStyled>
     )
 }
