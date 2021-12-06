@@ -1,18 +1,24 @@
 import React from 'react'
 import styled from 'styled-components'
+import PrimaryButtons from './PrimaryButtons'
+import logo from '../img/logo.svg'
 function Navigation() {
     return (
         <NavigationStyled>
-            <nav className="logo"></nav>
+            <nav className="logo">
+                <img src={logo} alt="" />
+            </nav>
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">Features</a></li>
                 <li><a href="">Pricing</a></li>
             </ul>
+            <PrimaryButtons name={'Sign Up'} />
         </NavigationStyled>
     )
 }
 const NavigationStyled = styled.nav`
-
+    display: flex;
+    justify-content: space-between;
 `
 export default Navigation
