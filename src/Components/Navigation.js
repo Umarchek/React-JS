@@ -3,7 +3,12 @@ import styled from 'styled-components'
 function Navigation() {
     return (
         <NavigationStyled>
-            nav.
+            <nav className="logo"></nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Features</a></li>
+                <li><a href="">Pricing</a></li>
+            </ul>
         </NavigationStyled>
     )
 }
