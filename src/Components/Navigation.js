@@ -20,5 +20,14 @@ function Navigation() {
 const NavigationStyled = styled.nav`
     display: flex;
     justify-content: space-between;
+    min-height:center;
+
+
+    ul{
+        display:flex;
+        justify-content: space-between;
+        width:40%;
+
+    }
 `
 export default Navigation
