@@ -1,10 +1,10 @@
 import React from 'react'
 import Header from './Components/Header.js'
-import {OuterLayout} from './styles/Layouts'
+import { OuterLayout } from './styles/Layouts'
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header />
       <OuterLayout>
         
       </OuterLayout>
