@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { InnerLayout } from '../styles/Layouts';
 import ChartStats from './ChartStats';
 import chart from '../img/chart.svg';
-import AnimatedButton from './AnimatedButton';
+import AnimatedButton from './AnimatedButton.js';
 import { Bounce, Roll } from 'react-reveal';
 import RubberBand from 'react-reveal/RubberBand';
 
