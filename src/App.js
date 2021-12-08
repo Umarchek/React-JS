@@ -3,6 +3,7 @@ import Header from './Components/Header.js'
 import CardSection from './Components/CardSection.js'
 import { OuterLayout } from './styles/Layouts'
 import styled from 'styled-components'
+import ChartSection from './Components/ChartSection.js'
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ function App() {
       <OuterLayout>
         <MainStyled>
           <CardSection/>
+          <ChartSection/>
         </MainStyled>
       </OuterLayout>
     </div>
