@@ -5,7 +5,9 @@ function ChartSection() {
     return (
         <ChartStyled>
             <div className="chart-left">
-        
+                <div className="stats">
+                    
+                </div>
             </div>
             <div className="chart-right">
 
