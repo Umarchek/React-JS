@@ -21,7 +21,8 @@ const NavigationStyled = styled.nav`
     display: flex;
     justify-content: space-between;
     min-height:center;
-
+    align-items:center;
+    padding-top:50px;
 
     ul{
         display:flex;
