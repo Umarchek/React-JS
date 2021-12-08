@@ -1,19 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import { InnerLayout } from '../styles/Layouts'
-function ChartStats() {
+
+function ChartStats({ name, amount }) {
     return (
         <ChartStatsStyled>
-            <InnerLayout>
-                <div className="chart-left">
-                    <div className="stats">
-
-                    </div>
-                </div>
-                <div className="chart-right">
-
-                </div>
-            </InnerLayout>
+            <p>{name}</p>
+            <h4>{amount}</h4>
         </ChartStatsStyled>
     )
 }
