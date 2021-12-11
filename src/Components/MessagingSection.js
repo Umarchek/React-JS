@@ -19,7 +19,7 @@ function MessagingSection() {
                             We support you in 5 different languages
                         </h2>
                         <p className="m-para">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Officiis distinctio vel, quod repellendus enim exercitationem ullam quas facere sapiente esse incidunt, odio laborum?
                         </p>
                         <div className="images-con">
