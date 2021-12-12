@@ -6,6 +6,7 @@ import styled from 'styled-components'
 import ChartSection from './Components/ChartSection.js'
 import MessagingSection from './Components/MessagingSection.js'
 import PaymentSection from './Components/PaymentSection.js'
+import FAQSection from './Components/FAQSection.js'
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
           <ChartSection/>
           <MessagingSection/>
           <PaymentSection/>
+          <FAQSection/>
         </MainStyled>
       </OuterLayout>
     </div>
