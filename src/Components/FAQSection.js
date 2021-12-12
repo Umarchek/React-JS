@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import lines from '../img/lines.svg';
 import { InnerLayout } from '../styles/Layouts'
 import Question from './Question';
+import questions from '../questions';
+
 function FAQSection() {
     return (
         <FaqStyled>
