@@ -1,12 +1,22 @@
 import React from 'react'
 import styled from 'styled-components'
+import lines from '../img/lines.svg';
 import { InnerLayout } from '../styles/Layouts'
+import Question from './Question';
 function FAQSection() {
     return (
         <FaqStyled>
             <InnerLayout>
                 <h3 className="small-heading">Frequently <span>asked questions</span></h3>
-                <p className='c-para'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta reprehenderit facilis quibusdam quos excepturi impedit soluta perspiciatis. Porro error mollitia molestias est, labore, odit nulla, facilis iure tenetur accusantium consequatur inventore ipsum!</p>
+                <p className='c-para'>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Iure tenetur accusantium consequatur inventore ipsum!</p>
+                <div className="lines"><img src={lines} alt="" /></div>
+                <div className="questions-con">
+        {
+            questions.map((q)=>{
+                return <Question key={q.id} {...q}/>
+            })
+        }
+                </div>
             </InnerLayout>
         </FaqStyled>
     )
