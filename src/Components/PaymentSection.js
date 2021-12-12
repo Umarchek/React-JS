@@ -5,7 +5,8 @@ function PaymentSection() {
     return (
         <PaymentStyled>
             <InnerLayout>
-                <h3 className="small-headinjg">An exceptional service, at the right price <span>at the right price</span></h3>
+                <h3 className="small-headinjg">An exceptional service, <span>at the right price</span></h3>
+                <p>Start with our free plan and switch to premium as you grow.</p>
             </InnerLayout>
         </PaymentStyled>
     )
